@@ -7,6 +7,8 @@ install_requires = []  # pylint: disable=invalid-name
 
 # pylint: disable=import-error
 # pylint: disable=unused-import
+# pylint: disable=wrong-import-order
+# pylint: disable=wrong-import-position
 try:
     import PIL
 except ImportError:
