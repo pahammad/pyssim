@@ -34,13 +34,13 @@ except ImportError:
 
 setup(
     name='pyssim',
-    version='0.2',
+    version='0.3',
     description=('Module for computing Structured Similarity Image Metric '
                  '(SSIM) in Python'),
     author='Antoine Vacavant, Christopher Godfrey, Jeff Terrace',
     author_email='jterrace@gmail.com',
     platforms=['any'],
-    license='BSD',
+    license='MIT License',
     install_requires=install_requires,
     url='https://github.com/jterrace/pyssim',
     entry_points={
